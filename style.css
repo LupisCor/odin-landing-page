@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-1 {
+    background-color: #1F2937;
+}
