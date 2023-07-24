@@ -107,20 +107,25 @@ a {
 
 /* ---- Section 4 ---- */
 
-.box {
+.section-4 {
+    height: 200px;
+}
+
+.bluebox {
     background-color: #3882f6;
     color: #E5E7EB;
     display: flex;
-    justify-content: space-evenly;
-    width: auto;
+    justify-content: space-evenly; 
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
 }
 
-.box button {
-    background-color: transparent;
+.bluebox button {
+    background-color: #3882f6;
     color: #E5E7EB;
     border: solid, #E5E7EB, 2px;
-    justify-self: baseline;
-    align-self: baseline;
+    align-self: center;
 }
 
 .footer {
