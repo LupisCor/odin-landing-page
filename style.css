@@ -2,6 +2,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+/*.section {
+    height: 300px;
+}*/
 
 /* ---- Section 1 ---- */
 .section-1 {
@@ -14,6 +17,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     justify-content: space-around;
+    background-color: #1F2937;
 }
 
 .header-links {
@@ -39,8 +43,7 @@ a {
 .text-1 {
     border: solid red 1px;
     width: 300px;
-    padding: 0;
-    margin: 0;
+    
 }
 
 .image-container {
@@ -78,7 +81,29 @@ a {
 
 /* ---- Section 3 ---- */
 
+.section-3 {
+    background-color: #E5E7EB;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
 
+.content-3 {
+    border: dotted red 2px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-self: center;
+}
+
+.text-3 {
+    /*font-size: 36px;*/
+    color: #1F2937;
+}
+
+.quote-3 {
+    align-self: flex-end;
+}
 
 /* ---- Section 4 ---- */
 
